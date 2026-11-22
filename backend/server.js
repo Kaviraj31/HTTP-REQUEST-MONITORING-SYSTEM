@@ -15,7 +15,8 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://httpguard-frontend.vercel.app"
+    "https://httpguard-frontend.vercel.app",
+    "https://http-request-monitoring-system-1.onrender.com"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type"]
